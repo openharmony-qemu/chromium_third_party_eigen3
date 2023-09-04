@@ -1,7 +1,7 @@
 [
     {
         "Name": "chromium_third_party_eigen3",                   # 上游开源软件名全称
-        "License": "Khronos Group License",         # 上游开源软件中包含的许可证信息
+        "License": "Local variables","lightweight C++"     # 上游开源软件中包含的许可证信息
         "License File": "LICENSE.TXT","MPL-2.0","GPL-2.0+","Khronos License","GPLStyleLicense","LGPL-2.1+","BSD-3-Clause|GPLStyleLicense" ,"LGPLStyleLicense"     # 许可证所在文件路径
         "Version Number": "e939c06b0e54fd7c4bfa173d01b47d2554bf7a85",
         "Upstream URL": "https://chromium.googlesource.com/external/gitlab.com/libeigen/eigen.git@e939c06b0e54fd7c4bfa173d01b47d2554bf7a85",   # 上游软件包发布地址
