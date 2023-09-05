@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "chromium_buildtools_libcpp",                   # 上游开源软件名全称
+        "License":"MPL-2.0","GPL-2.0+","Khronos License","GPLStyleLicense","LGPL-2.1+","BSD-3-Clause|GPLStyleLicense" ,"LGPLStyleLicense",     # 上游开源软件中包含的许可证信息
+        "License File": "LICENSE",     # 许可证所在文件路径
+        "Version Number": "79a2e924d96e2fc1e4b937c42efd08898fa472d7",
+        "Upstream URL": "https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libcxx.git@79a2e924d96e2fc1e4b937c42efd08898fa472d7",   # 上游软件包发布地址
+        "Description": "第三方软件vulkan-deps/glslang"           # 开源软件功能描述
+    }
+]
