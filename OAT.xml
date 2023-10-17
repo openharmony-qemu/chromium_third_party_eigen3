@@ -66,7 +66,6 @@ used to filter file path.
                 <policyitem type="compatibility" name="Minpack Copyright Notice" path="COPYING.MINPACK" desc="经法务确认为宽松型许可证" />
                 <policyitem type="compatibility" name="Minpack Copyright Notice" path="src/LevenbergMarquardt/.*" desc="经法务确认为宽松型许可证" />
                 <policyitem type="compatibility" name="Minpack Copyright Notice" path="unsupported/Eigen/src/LevenbergMarquardt/.*" desc="经法务确认为宽松型许可证" />
-                
                 <policyitem type="compatibility" name="MPL-2.0" path="Eigen/.*" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="MPL-2.0" path="blas/.*" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="MPL-2.0" path="test/.*" desc="经法务确认,涉及文件在render下进行了隔离" />
