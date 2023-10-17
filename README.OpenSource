@@ -7,5 +7,14 @@
         "Owner": "liujixin@huawei.com",
         "Upstream URL": "https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libcxx.git@79a2e924d96e2fc1e4b937c42efd08898fa472d7",
         "Description": "第三方软件eigen3"
+    },
+    {
+        "Name": "eigen",
+        "License":"GPL-2.0-or-later",
+        "License File": "bench/btl/COPYING",
+        "Version Number": "79a2e924d96e2fc1e4b937c42efd08898fa472d7",
+        "Owner": "liujixin@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libcxx.git@79a2e924d96e2fc1e4b937c42efd08898fa472d7",
+        "Description": "第三方软件eigen3"
     }
 ]
