@@ -167,8 +167,6 @@ used to filter file path.
                 EVEN IF ANY OF SAID PARTIES HAS BEEN WARNED OF THE
                 POSSIBILITY OF SUCH LOSS OR DAMAGES.
                 " desc="" />
-            </licensematcher>
-            <licensematcher name="Minpack Copyright Notice" desc="">
                 <licensetext name="
                 // This Source Code Form is subject to the terms of the Minpack license
                 // (a BSD-like license) described in the campaigned CopyrightMINPACK.txt file.
