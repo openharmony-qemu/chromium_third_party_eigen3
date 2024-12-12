@@ -75,46 +75,35 @@ used to filter file path.
                 <policyitem type="compatibility" name="MPL-2.0" path="demos/.*" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="MPL-2.0" path="scripts/relicense.py" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="MPL-2.0" path="debug/.*" desc="经法务确认,涉及文件在render下进行了隔离" />
-                <policyitem type="compatibility" name="MPL-2.0" path="COPYING.MPL2" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="MPL-2.0" path="unsupported/Eigen/src/LevenbergMarquardt/.*" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="GPL-2.0+" path="demos/.*" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="GPL-2.0+" path="bench/.*" desc="经法务确认,涉及文件在render下进行了隔离" />
-                <policyitem type="compatibility" name="LGPL-2.1+" path="COPYING.LGPL" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="LGPLStyleLicense" path="unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h" desc="经法务确认,涉及文件在render下进行了隔离" />
-                <policyitem type="compatibility" name="LGPLStyleLicense" path="COPYING.README" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="LGPLStyleLicense" path="doc/PreprocessorDirectives.dox" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="LGPLStyleLicense" path="unsupported/Eigen/src/IterativeSolvers/IterationController.h" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="GPLStyleLicense" path="doc/SparseLinearSystems.dox" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="GPLStyleLicense" path="doc/UsingIntelMKL.dox" desc="经法务确认,涉及文件在render下进行了隔离" />
                 <policyitem type="compatibility" name="MPL-2.0" path="test/.*" desc="经法务确认,涉及文件在render下进行了隔离" />
-                <policyitem type="compatibility" name="GPLStyleLicense" path="COPYING.MPL2" desc="经法务确认,涉及文件在render下进行了隔离" />
             </policy>
         </policylist>
         <filefilterlist>
             <filefilter name="defaultPolicyFilter"
                 desc="Filters for compatibility,license header policies">
-                <filteritem type="filepath" name="COPYING.GPL"
-                    desc="经确认，该文件不会使用" />
-                <filteritem type="filepath" name="doc/.*"
-                    desc="chromuim原生文件无license" />
-                <filteritem type="filepath" name="bench/perf_monitoring/resources/s2.js"
-                    desc="chromuim原生文件无license" />
-                <filteritem type="filepath" name="Eigen/src/SVD/BDCSVD.h"
-                    desc="chromuim原生文件无license" />
-                <filteritem type="filepath" name="COPYING.README"
-                    desc="chromuim原生文件无license" />
+                <filteritem type="filepath" name="doc/.*" desc="chromuim原生文件无license" />
+                <filteritem type="filepath" name="bench/perf_monitoring/resources/s2.js" desc="chromuim原生文件无license" />
+                <filteritem type="filepath" name="Eigen/src/SVD/BDCSVD.h" desc="chromuim原生文件无license" />
+
             </filefilter>
 
             <filefilter name="defaultFilter">
                 <filteritem type="filepath" name="README.OpenSource" desc="Filter readme.opensource files" />
+                <filteritem type="filepath" name="COPYING.MPL2" desc="版权声明文件" />
+                <filteritem type="filepath" name="COPYING.README" desc="版权声明文件" />
             </filefilter>
             <filefilter name="binaryFileTypePolicyFilter">
-                <filteritem type="filename" name="*.hh"
-                    desc="chromium原生二进制文件，不会使用" />
-                <filteritem type="filename" name="*.dat"
-                    desc="chromium原生二进制文件，不会使用" />
-                <filteritem type="filename" name="*.png"
-                    desc="chromium原生二进制文件，不会使用" />
+                <filteritem type="filename" name="*.hh" desc="chromium原生二进制文件，不会使用" />
+                <filteritem type="filename" name="*.dat" desc="chromium原生二进制文件，不会使用" />
+                <filteritem type="filename" name="*.png" desc="chromium原生二进制文件，不会使用" />
             </filefilter>
         </filefilterlist>
         <licensematcherlist>
