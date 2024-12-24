@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "eigen",
+        "License":"MPL2",
+        "License File": "COPYING.MPL2",
+        "Version Number": "79a2e924d96e2fc1e4b937c42efd08898fa472d7",
+        "Owner": "liujixin@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/external/github.com/RLovelett/eigen@79a2e924d96e2fc1e4b937c42efd08898fa472d7",
+        "Description": "第三方软件eigen3，用于线性代数的C++模板库：矩阵、向量、数值求解器和相关算法。"
+    }
+]
