@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "eigen",
+        "License":"GPL-2.0-only",
+        "License File": "bench/btl/COPYING",
+        "Version Number": "b396a6fbb2e173f52edb3360485dedf3389ef830",
+        "Owner": "huamengzheng@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libcxx.git@b396a6fbb2e173f52edb3360485dedf3389ef830",
+        "Description": "第三方软件eigen3，用于线性代数的C++模板库：矩阵、向量、数值求解器和相关算法。"
+    }
+]
